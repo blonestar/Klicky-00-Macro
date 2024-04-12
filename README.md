@@ -1,9 +1,18 @@
-# Klipper macros
+# Klicky-00-Macro
+Adopted existing Klicky macros (https://github.com/jlas1/Klicky-Probe/blob/main/Klipper_macros/) for Klicky-00 
 
 These macros are  based on the great Annex magprobe dockable probe macros "#Originally developed by Mental, modified for better use on K-series printers by RyanG and Trails", kudos to them.
 That macro as since evolved into a klipper plugin that currently is pending inclusion in klipper, more information [here](https://github.com/Annex-Engineering/Quickdraw_Probe/tree/main/Klipper_Macros)
 
 Would alse like to thank the Voron discord community and VoronDesign for all the work, suggestions and support that they have given to improve on the macros.
+
+## Klicky-00 specific variables
+```variable_fan_temp:              60    # at what temperature should the part cooling fan be turned on when probing
+variable_max_hotend_temp:      150    # maximum hotend temperature to allow probing, this is to avoid damaging the probe
+                                      # it will wait until the hotend is below this temperature before probing
+variable_restore_fan_speed:   True    # should the fan speed be restored after probing or turned off
+variable_restore_hotend_temp: True    # should the hotend temperature be restored after probing or left at the probing temperature```
+
 
 ## Klipper change 20240313
 
