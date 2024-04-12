@@ -11,7 +11,8 @@ Would alse like to thank the Voron discord community and VoronDesign for all the
 variable_max_hotend_temp:      150    # maximum hotend temperature to allow probing, this is to avoid damaging the probe
                                       # it will wait until the hotend is below this temperature before probing
 variable_restore_fan_speed:   True    # should the fan speed be restored after probing or turned off
-variable_restore_hotend_temp: True    # should the hotend temperature be restored after probing or left at the probing temperature```
+variable_restore_hotend_temp: True    # should the hotend temperature be restored after probing or left at the probing temperature
+```
 
 
 ## Klipper change 20240313
