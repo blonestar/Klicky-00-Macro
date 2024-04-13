@@ -7,7 +7,8 @@ That macro as since evolved into a klipper plugin that currently is pending incl
 Would alse like to thank the Voron discord community and VoronDesign for all the work, suggestions and support that they have given to improve on the macros.
 
 ## Klicky-00 specific variables
-```variable_fan_temp:              60    # at what temperature should the part cooling fan be turned on when probing
+```
+variable_fan_temp:              60    # at what temperature should the part cooling fan be turned on when probing
 variable_max_hotend_temp:      150    # maximum hotend temperature to allow probing, this is to avoid damaging the probe
                                       # it will wait until the hotend is below this temperature before probing
 variable_restore_fan_speed:   True    # should the fan speed be restored after probing or turned off
